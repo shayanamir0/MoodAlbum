@@ -171,11 +171,11 @@ def generate_prompt(emotions):
     }
     
     prompt_parts = []
-     for emotion, _ in emotions:
-         style, artist = era_styles.get(emotion, ("Contemporary", "Various"))
-         prompt_parts.append(f"a {style} painting in the style of {artist} depicting {emotion}")
+    for emotion, _ in emotions:
+        style, artist = era_styles.get(emotion, ("Contemporary", "Various"))
+        prompt_parts.append(f"a {style} painting in the style of {artist} depicting {emotion}")
     
-     return "Create a multi-style artwork combining " + ", ".join(prompt_parts)
+    return "Create a multi-style artwork combining " + ", ".join(prompt_parts)
 
 def generate_image(prompt):
     image = text2img(prompt, num_inference_steps=50).images[0]
