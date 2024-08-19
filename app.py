@@ -28,7 +28,9 @@ text2img = load_text2img()
 
 def analyze_sentiment(text):
     results = sentiment_analyzer(text)
-    return [(result['label'], result['score']) for result in results]
+    emotions = [(result['label'], result['score']) for result in results[0]]
+    return emotions
+    #return [(result['label'], result['score']) for result in results]
 
 def generate_prompt(emotions):
     era_styles = {
@@ -63,9 +65,9 @@ def generate_prompt(emotions):
     }
     
     prompt_parts = []
-    for emotion, score in emotions:
+    for emotion, _ in emotions:
         style, artist = era_styles.get(emotion, ("Contemporary", "Various"))
-        prompt_parts.append(f"a {style} painting in the style of {artist} depicting {emotion} (score: {score:.2f})")
+        prompt_parts.append(f"a {style} painting in the style of {artist} depicting {emotion}")
     
     return "Create a multi-style artwork combining " + ", ".join(prompt_parts)
 
@@ -74,7 +76,7 @@ def generate_image(prompt):
     return image
 
 def main():
-    st.title("Emotion to Painting Generator")
+    st.title("MoodAlbum - Visualise your feelings.")
 
     user_text = st.text_area("How are you feeling? Describe your emotions:")
 
@@ -94,7 +96,7 @@ def main():
             with st.spinner("Generating painting... This may take a while."):
                 image = generate_image(prompt)
             
-            st.image(image, caption="Generated Emotion Painting", use_column_width=True)
+            st.image(image, caption="Your feelings coming to life!", use_column_width=True)
         else:
             st.warning("Please enter some text describing your emotions.")
 
