@@ -1,12 +1,12 @@
-# MoodAlbum: Paintings Derived from Emotions
+# [MoodAlbum - Paintings derived from emotions.](https://huggingface.co/spaces/DingoBeast/MoodAlbum)
 
 ## Project Description
 
-MoodAlbum is an innovative web application designed for visual art therapy, with a strong focus on psychology and enhancing emotional interaction between humans and AI. This unique platform transforms written emotional expressions into AI-generated paintings, creating a bridge between internal feelings and external visual representations.
+MoodAlbum is a web application designed for visual art therapy, with a strong focus on psychology and enhancing emotional interaction between humans and AI. This unique platform transforms written emotional expressions into AI-generated paintings, creating a bridge between internal feelings and external visual representations. The project is rooted in the understanding that visual representation can often capture emotional nuances that words alone might struggle to convey.
 
-The primary goal of MoodAlbum is to bridge the emotional gap between humans and AI through art. By leveraging advanced AI technologies to interpret and visualize human emotions, the project aims to create a deeper, more intuitive form of communication between people and artificial intelligence.
+The primary goal of MoodAlbum is to bridge the emotional gap between humans and AI through art. 
 
-At its core, MoodAlbum aims to provide a novel approach to emotional exploration and expression. By combining advanced natural language processing for emotion detection with state-of-the-art image generation, it offers users a creative and introspective experience. The project is rooted in the understanding that visual representation can often capture emotional nuances that words alone might struggle to convey.
+A key feature of MoodAlbum is that the generated paintings are derived from actual paintings, art styles, and eras from previous generations. This approach connects users' emotions to the rich art history, reflecting the periods artists went through and the emotional contexts of their times. By doing so, MoodAlbum also places them within the broader context of human emotional expression throughout art history.
 
 Key aspects of MoodAlbum include:
 
