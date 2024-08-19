@@ -170,7 +170,7 @@ def generate_prompt(emotions):
         "grief": ("Neo-Expressionism", "Jean-Michel Basquiat")
     }
     
-     prompt_parts = []
+    prompt_parts = []
      for emotion, _ in emotions:
          style, artist = era_styles.get(emotion, ("Contemporary", "Various"))
          prompt_parts.append(f"a {style} painting in the style of {artist} depicting {emotion}")
