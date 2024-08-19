@@ -1,2 +1,2 @@
 # MoodAlbum
-Paintings derived by emotions.
+Paintings derived from emotions.
