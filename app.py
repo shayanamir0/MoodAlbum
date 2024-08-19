@@ -134,8 +134,9 @@ sentiment_analyzer = load_sentiment_analyzer()
 text2img = load_text2img()
 
 def analyze_sentiment(text):
-    results = sentiment_analyzer(text)
-    return [(result['label'], result['score']) for result in results]
+     results = sentiment_analyzer(text)
+     emotions = [(result['label'], result['score']) for result in results[0]]
+     return emotions
 
 def generate_prompt(emotions):
     era_styles = {
@@ -169,12 +170,12 @@ def generate_prompt(emotions):
         "grief": ("Neo-Expressionism", "Jean-Michel Basquiat")
     }
     
-    prompt_parts = []
-    for emotion, score in emotions:
-        style, artist = era_styles.get(emotion, ("Contemporary", "Various"))
-        prompt_parts.append(f"a {style} painting in the style of {artist} depicting {emotion}")
+     prompt_parts = []
+     for emotion, _ in emotions:
+         style, artist = era_styles.get(emotion, ("Contemporary", "Various"))
+         prompt_parts.append(f"a {style} painting in the style of {artist} depicting {emotion}")
     
-    return "Create a multi-style artwork combining " + ", ".join(prompt_parts)
+     return "Create a multi-style artwork combining " + ", ".join(prompt_parts)
 
 def generate_image(prompt):
     image = text2img(prompt, num_inference_steps=50).images[0]
