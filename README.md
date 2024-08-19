@@ -22,7 +22,7 @@ Key aspects of MoodAlbum include:
 
 1. **Emotional Input**: Users begin by entering a text description of their current emotional state or feelings.
 
-2. **AI Emotion Analysis**: The application uses a RoBERTa-based model (SamLowe/roberta-base-go_emotions) to analyze the text and identify the top 5 emotions present.
+2. **AI Emotion Analysis**: The application uses a RoBERTa-based model to analyze the text and identify the top 5 emotions present.
 
 3. **Artistic Interpretation**: Each detected emotion is associated with a specific art style and a renowned artist known for that style.
 
@@ -30,11 +30,9 @@ Key aspects of MoodAlbum include:
 
 5. **Image Generation**: Using the Stable Diffusion v1.5 model, the application creates a custom painting based on the generated prompt.
 
-6. **Visual Feedback**: The resulting AI-generated painting is displayed to the user, along with the detected emotions and the prompt used for creation.
+6. **Visual Feedback**: The resulting AI-generated painting is displayed to the user, along with the detected emotions used for creation.
 
 7. **Reflection**: Users can reflect on the generated artwork, considering how it relates to their expressed emotions and potentially gaining new insights into their emotional state.
-
-Through this process, MoodAlbum creates a dynamic and personalized experience that encourages emotional exploration and expression through the medium of AI-generated art, potentially offering new perspectives on one's emotional landscape.
 
 ## Availability and Processing Time
 
