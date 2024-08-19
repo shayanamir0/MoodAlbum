@@ -182,7 +182,7 @@ def generate_image(prompt):
     return image
 
 def main():
-    st.title("Emotion to Painting Generator")
+    st.title("MoodAlbum - Visualise your feelings.")
 
     user_text = st.text_area("How are you feeling? Describe your emotions:")
 
@@ -202,7 +202,7 @@ def main():
             with st.spinner("Generating painting... This may take a while."):
                 image = generate_image(prompt)
             
-            st.image(image, caption="Generated Emotion Painting", use_column_width=True)
+            st.image(image, caption="Your feelings coming to life!", use_column_width=True)
         else:
             st.warning("Please enter some text describing your emotions.")
 
