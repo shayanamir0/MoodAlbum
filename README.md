@@ -2,21 +2,11 @@
 
 ## Project Description
 
-MoodAlbum is a web application designed for visual art therapy, with a strong focus on psychology and enhancing emotional interaction between humans and AI. This unique platform transforms written emotional expressions into AI-generated paintings, creating a bridge between internal feelings and external visual representations. The project is rooted in the understanding that visual representation can often capture emotional nuances that words alone might struggle to convey.
+MoodAlbum is a unique platform transforms written emotional expressions into AI-generated paintings, creating a bridge between internal feelings and external visual representations. The project is rooted in the understanding that visual representation can often capture emotional nuances that words alone might struggle to convey.
 
-The primary goal of MoodAlbum is to bridge the emotional gap between humans and AI through art. 
+The primary goal of MoodAlbum is to bridge the emotional gap between humans and AI through art.
 
-A key feature of MoodAlbum is that the generated paintings are derived from actual paintings, art styles, and eras from previous generations. This approach connects users' emotions to the rich art history, reflecting the periods artists went through and the emotional contexts of their times. By doing so, MoodAlbum also places them within the broader context of human emotional expression throughout art history.
-
-Key aspects of MoodAlbum include:
-
-1. **Visual Art Therapy**: Serves as a digital tool for art therapy, allowing users to externalize and process their emotions through AI-generated artwork.
-
-2. **Psychological Focus**: Emphasizes the psychological aspect of emotion recognition and expression, potentially aiding in self-reflection and emotional awareness.
-
-3. **Human-AI Emotional Interaction**: Fosters a unique form of emotional communication between users and AI, where human emotions are interpreted and visually represented by artificial intelligence.
-
-4. **Artistic Emotion Mapping**: Associates detected emotions with various art styles and famous artists, providing an educational component about art history in relation to emotional expression.
+Find the full report [HERE].(https://github.com/shayanamir0/MoodAlbum/blob/main/Project%20Report%20MoodAlbum.pdf)
 
 ## How It Works
 
