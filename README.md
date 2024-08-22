@@ -6,7 +6,7 @@ MoodAlbum is a unique platform transforms written emotional expressions into AI-
 
 The primary goal of MoodAlbum is to bridge the emotional gap between humans and AI through art.
 
-Find the full report [HERE].(https://github.com/shayanamir0/MoodAlbum/blob/main/Project%20Report%20MoodAlbum.pdf)
+Find the full report [HERE](https://github.com/shayanamir0/MoodAlbum/blob/main/Project%20Report%20MoodAlbum.pdf).
 
 ## How It Works
 
